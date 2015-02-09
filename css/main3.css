@@ -26,7 +26,7 @@
   src: url(..Fonts/Aly.ttf);
 }
 
-h1  {
+h1 {
   font-family: Aly;
   color: blue;
   text-decoration: none;
@@ -234,3 +234,10 @@ PAGE: PORTFOLIO
  float: left;
 
 }*/
+
+@media only screen and (max-width: 767px) {
+  .main_menu,
+  #menu-wrap {
+    display: block;
+  }
+}
