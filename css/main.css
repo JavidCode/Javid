@@ -1,0 +1,169 @@
+@import "social.css";
+@import "menu.css";
+@import "normalize.css";
+/*Header Text*/
+
+#Top {
+  text-align: center;
+}
+
+#Top1 {
+  text-align: center;
+}
+
+#Me {
+  width: auto;
+  height: auto;
+}
+
+#logo {
+  width: 25%;
+  height: auto;
+  left: 0px;
+  padding-bottom: 10px;
+}
+
+@font-face {
+  font-family: Stencil;
+  src: url(..Fonts/Aly.ttf);
+}
+
+h1 {
+  font-family: Aly;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+h1:hover {
+  color: blue;
+}
+
+h2:hover {
+  color: white;
+}
+
+h1home {
+  font-family: Aly;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+@font-face {
+  font-family: Day;
+  src: url(..Fonts/Day.ttf);
+}
+
+h2 {
+  font-family: Day;
+  color: black;
+  /*background-color: black;*/
+}
+/*h2uncoded {
+  font-family: Day;
+  background-color: black;
+}
+/*Header Logo*/
+
+#logo {
+  resize: both;
+}
+
+header {
+  background-color: black;
+  background-image: url(../img/panorama.jpg);
+  border: 0 none;
+}
+
+header img {
+  display: block;
+  width: 25%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+}
+
+header.logo1 {
+  background-color: blue;
+}
+
+header img logo {
+  width: 25%;
+  height: auto;
+}
+/*body color*/
+
+body {
+  background-color: black;
+}
+/* ---------- Social Icons ---------- */
+
+.button {
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  opacity: .5;
+}
+
+.button:hover {
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  opacity: 1;
+  margin-top: -10px;
+  -webkit-box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, .5);
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, .5);
+}
+
+.button img {
+  margin-top: -10px;
+  margin-left: -10px;
+  /*display: block;*/
+
+  margin-left: auto;
+  margin-right: auto;
+}
+/* instagram fix*/
+
+#img_2 {
+  margin: 0;
+}
+
+#img_3 {
+  margin: 0;
+}
+
+#container {
+  width: 250px;
+  height: 50px;
+  margin: 50px auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container h1 {
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  color: #356245;
+  padding-bottom: 25px;
+}
+/*Footer Text*/
+
+#textb {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  font-family: Day;
+}
+
+nav {
+  text-align: center;
+}

@@ -1,0 +1,233 @@
+@import "social.css";
+@import "menu.css";
+@import "normalize.css";
+/* Begin Header Text*/
+
+#Top1 {
+  text-align: center;
+  height: 10%;
+  width: auto;
+}
+
+#Me {
+  width: auto;
+  height: auto;
+}
+
+#logo {
+  width: 25%;
+  height: auto;
+  left: 0px;
+}
+
+@font-face {
+  font-family: Stencil;
+  src: url(..Fonts/Aly.ttf);
+}
+
+h1 {
+  font-family: 'Stencil;
+ margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+  text-align: center;
+  color: blue;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+}
+
+h1:hover {
+  color: white;
+}
+
+h2:hover {
+  color: red;
+}
+
+h1home {
+  font-family: Aly;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+@font-face {
+  font-family: Day;
+  src: url(..Fonts/Day.ttf);
+}
+
+h2 {
+  font-family: Day;
+  background-color: black;
+}
+/*End Header Text*/
+/*Begin Header Logo*/
+
+#logo {
+  resize: both;
+}
+
+header {
+  background-color: black;
+}
+
+.logo1 {
+  background-color: black;
+  width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.home img {
+  width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*End Header Logo*/
+
+h3 {
+  color: white;
+  font-family: Day;
+  text-align: center;
+}
+/*Body Color*/
+
+body {
+  background-color: black;
+}
+/*Footer Text*/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+/**********************
+NAVIGATION
+***********************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 00;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+/*Images of sites*/
+
+.port {
+  height: 50%;
+  width: 50%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+#images {
+  text-align: center;
+}
+
+a.port.hover {
+  background: white;
+}
+/*The max-width is making gallery smaller*/
+
+#wrapper1 {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background-color: black;
+  float: left;
+  padding-top: 100px;
+  width: 960px;
+  display: inline-block;
+}
+
+li img {
+  width: 25%;
+  height: auto;
+}
+
+.gallery {
+  display: inline-block
+}
+
+#wrapper {
+  width: 700px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background-color: black;
+  float: left;
+  padding-top: 100px;
+  width: 960px;
+  display: inline-block;
+}
+/*Portfolio/*/
+
+.images {
+  margin-left: auto;
+  margin-right: auto;
+}
+/**********************
+PAGE: PORTFOLIO
+***********************
+
+
+#portfolio {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#portfolio li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#portfolio li a p {
+  margin: 0;
+  padding: 2%
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+*/
+/*.gallery
+{ max-width: 1040px;
+ margin: 0 auto;
+ padding: 0 5%;
+ background-color: black;
+ float: left;
+
+}*/
