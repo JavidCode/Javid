@@ -163,12 +163,20 @@ body {
 }
 /*Footer Text*/
 
+@font-face {
+  font-family: Day;
+  src: url(..Fonts/Day.ttf);
+}
+
 #textb {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   text-decoration: none;
-  font-family: Day;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {

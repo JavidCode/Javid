@@ -22,11 +22,11 @@
 /*H1 and H2*/
 
 @font-face {
-  font-family: Stencil;
+  font-family: Aly;
   src: url(..Fonts/Aly.ttf);
 }
 
-h1 {
+h1  {
   font-family: Aly;
   color: blue;
   text-decoration: none;
