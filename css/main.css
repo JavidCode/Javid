@@ -24,7 +24,7 @@
 }
 
 @font-face {
-  font-family: Stencil;
+  font-family: Aly;
   src: url(..Fonts/Aly.ttf);
 }
 
@@ -34,6 +34,7 @@ h1 {
   text-decoration: none;
   background-color: black;
 }
+/*Hover colors*/
 
 h1:hover {
   color: blue;
@@ -42,8 +43,14 @@ h1:hover {
 h2:hover {
   color: white;
 }
+/*Pages other than index.html*/
 
-h1home {
+@font-face {
+  font-family: Aly;
+  src: url(..Fonts/Aly.ttf);
+}
+
+.h1home {
   font-family: Aly;
   color: white;
   text-decoration: none;

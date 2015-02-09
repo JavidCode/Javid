@@ -19,6 +19,7 @@
   height: auto;
   left: 0px;
 }
+/*H1 and H2*/
 
 @font-face {
   font-family: Stencil;
@@ -26,21 +27,22 @@
 }
 
 h1 {
-  font-family: 'Stencil;
- margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
-  text-align: center;
+  font-family: Aly;
   color: blue;
+  text-decoration: none;
+  background-color: black;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Day;
+  src: url(..Fonts/Day.ttf);
 }
 
 h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
-  text-align: center;
+  font-family: Day;
   color: white;
+  text-align: center
 }
 
 h1:hover {
@@ -50,7 +52,7 @@ h1:hover {
 h2:hover {
   color: red;
 }
-
+/*
 h1home {
   font-family: Aly;
   color: white;
@@ -67,6 +69,7 @@ h2 {
   font-family: Day;
   background-color: black;
 }
+*/
 /*End Header Text*/
 /*Begin Header Logo*/
 
