@@ -83,7 +83,7 @@ header {
   background-image: url(../img/panorama.jpg);
   border: 0 none;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /* background-attachment: fixed;
   background-position: center center;
   background-clip: border-box;
