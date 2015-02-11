@@ -175,7 +175,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   /* nav-wrap */
 
   #menu-wrap {
@@ -272,7 +272,7 @@ body {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 400px) {
   #menu {
     display: block !important;
   }
