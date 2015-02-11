@@ -81,6 +81,14 @@ header {
   background-color: black;
   background-image: url(../img/panorama.jpg);
   border: 0 none;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;
+  background-position: center center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  -moz-background-size: cover;
+  background-size: cover;
+*/
 }
 
 header img {
