@@ -18,7 +18,7 @@
   <!-- Add fancyBox -->
   <link rel="stylesheet" href="js/source/jquery.fancybox.css" type="text/css" media="screen" />
   <script type="text/javascript" src="js/source/jquery.fancybox.pack.js"></script>
-
+  <script type="text/javascript" src="js/source/detectmobilebrowser.js"></script>
 
   <link rel="stylesheet" href="js/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
   <script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js"></script>
@@ -26,11 +26,13 @@
 
   <style type="text/css"></style>
   <script type="text/javascript">
-    if (!navigator.userAgent) {
-      //if the browser is NOT mobile then declare fancybox
-      $(document).ready(function () {
-        $(".fancybox").fancybox();
-      });
+    //    if (!navigator.userAgent) {
+    //if the browser is NOT mobile then declare fancybox
+    //Fancybox//
+
+    $(document).ready(function () {
+      $(".fancybox").fancybox();
+    });
   </script>
   <script type="text/javascript">
     ;
@@ -39,8 +41,10 @@
       $('.swipebox').swipebox();
 
     })(jQuery)
-    }
+    //    }
+    //Fancybox//
   </script>
+
 </head>
 <header>
   <header>
