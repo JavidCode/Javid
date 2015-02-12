@@ -91,6 +91,9 @@ body {
     .menu < li {
       display: block;
     }
+    img.menu {
+      max-width: 100%
+    }
   }
 }
 /*Top Pic*/
@@ -172,12 +175,12 @@ div.img {
   width: 150px;
   margin: 5px;
 }*/
-
+/*
 .fancybox-overlay {
   display: none !important;
-  @media screen (min-width: 100px) {
+  @media screen (max-width: 600px) {
     .fancybox-overlay {
       display: block !important;
     }
   }
-}
+}*/
