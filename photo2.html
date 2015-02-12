@@ -6,8 +6,10 @@
   <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
   <title>JavidCode | Uncoded | Photography</title>
   <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/social.css">
+  <link rel="stylesheet" href="css/social.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swipebox.css">
+
 
   <!-- Add jQuery library -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -24,9 +26,20 @@
 
   <style type="text/css"></style>
   <script type="text/javascript">
-    $(document).ready(function () {
-      $(".fancybox").fancybox();
-    });
+    if (!navigator.userAgent) {
+      //if the browser is NOT mobile then declare fancybox
+      $(document).ready(function () {
+        $(".fancybox").fancybox();
+      });
+  </script>
+  <script type="text/javascript">
+    ;
+    (function ($) {
+
+      $('.swipebox').swipebox();
+
+    })(jQuery)
+    }
   </script>
 </head>
 <header>
@@ -81,37 +94,37 @@
       </div>-->
 
     <div class="img">
-      <a class="fancybox" href="img/1505487_655248022128_1855895742_n.jpg"><img src="img/1505487_655248022128_1855895742_n.jpg" </a>
+      <a class="fancybox swipebox" href="img/1505487_655248022128_1855895742_n.jpg"><img src="img/1505487_655248022128_1855895742_n.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/1545156_658935821748_1085307154_n.jpg"><img src="img/1545156_658935821748_1085307154_n.jpg" </a>
+      <a class="fancybox swipebox" href="img/1545156_658935821748_1085307154_n.jpg"><img src="img/1545156_658935821748_1085307154_n.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/1555530_655469119048_711440018_n.jpg"><img src="img/1555530_655469119048_711440018_n.jpg" </a>
+      <a class="fancybox swipebox" href="img/1555530_655469119048_711440018_n.jpg"><img src="img/1555530_655469119048_711440018_n.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
+      <a class="fancybox swipebox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
+      <a class="fancybox swipebox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
+      <a class="fancybox swipebox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
+      <a class="fancybox swipebox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
+      <a class="fancybox swipebox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
+      <a class="fancybox swipebox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
+      <a class="fancybox swipebox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
     </div>
     <div class="img">
-      <a class="fancybox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
+      <a class="fancybox swipebox" href="img/Javid-0006.jpg"><img src="img/Javid-0006.jpg" </a>
     </div>
   </div>
   <!--</ul>-->
