@@ -164,7 +164,7 @@ h1 {
   font-family: Aly;
   color: blue;
   text-decoration: none;
-  background-color: black;
+  background-color: blackblack;
   text-align: center;
 }
 
@@ -241,7 +241,7 @@ h3 {
 /*Body Color*/
 
 body {
-  background-color: black;
+  background-color: white;
 }
 /*Footer Text*/
 

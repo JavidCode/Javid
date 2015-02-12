@@ -1,0 +1,112 @@
+/*H1 and H2*/
+
+@font-face {
+  font-family: Aly;
+  src: url(..Fonts/Aly.ttf);
+}
+
+h1 {
+  font-family: Aly;
+  color: blue;
+  text-decoration: none;
+  background-color: blackblack;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Day;
+  src: url(..Fonts/Day.ttf);
+}
+
+h2 {
+  font-family: Day;
+  color: white;
+  text-align: center
+}
+
+h1:hover {
+  color: white;
+}
+
+h2:hover {
+  color: red;
+}
+/*
+h1home {
+  font-family: Aly;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+@font-face {
+  font-family: Day;
+  src: url(..Fonts/Day.ttf);
+}
+
+h2 {
+  font-family: Day;
+  background-color: black;
+}
+*/
+/*End Header Text*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Aly;
+  background-color: black;
+}
+
+.menu {
+  background-color: #333;
+  color: #FFF;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.menu > li {
+  display: inline-block;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #FFF;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: blue;
+  }
+  .menu {
+    .menu {
+      text-align: left;
+      font-size: 1em;
+      color: green;
+    }
+    .menu < li {
+      display: block;
+    }
+  }
+}
+/*Top Pic*/
+
+.logo1 {
+  background-color: black;
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Footer Text*/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: white;
+}
