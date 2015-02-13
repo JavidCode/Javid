@@ -315,6 +315,12 @@ nav a {
     width: auto;
     height: auto;
   }
+  .gallery {
+    padding-top: 0px;
+    width: 500px;
+    vertical-align: center;
+  }
+}
 }
 /*Images of sites*/
 
@@ -326,11 +332,9 @@ nav a {
   margin-right: auto;
   float: left;
 }
-
 #images {
   text-align: center;
 }
-
 a.port.hover {
   background: white;
 }
@@ -347,16 +351,13 @@ a.port.hover {
   width: 960px;
   display: inline-block;
 }
-
 li img {
   width: 25%;
   height: auto;
 }
-
 .gallery {
   display: inline-block
 }
-
 #wrapper {
   width: 700px;
   margin: 0 auto;
