@@ -286,7 +286,6 @@ nav a {
   }
 }
 */
-
 /*
 #menu {
   font-size: 25px;
@@ -442,4 +441,13 @@ PAGE: PORTFOLIO
  background-color: black;
  float: left;
 
+}*/
+/*
+body {
+  background-image: url('../img/IMG_5097.JPG');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }*/
