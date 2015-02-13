@@ -1,11 +1,26 @@
 @import "social.css";
-@import "menu.css";
+/*@import "menu.css";*/
+
 @import "normalize.css";
 /*http://www.w3schools.com/css/css_combinators.asp  Does this do what I want?/*/
 
 body {
   margin: 0;
   padding: 0;
+}
+/*Body Color*/
+
+body {
+  background-color: black;
+}
+/*Footer Text*/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
 }
 /* Added width to be able to see picture object better */
 /*img size*/
@@ -52,6 +67,10 @@ body {
   border: 0;
 }
 /*Header Image*/
+
+header {
+  background-color: black;
+}
 
 .logo1 {
   background-color: black;
@@ -114,7 +133,33 @@ div.img {
   width: 150px;
   margin: 5px;
 }*/
+/**********************
+NAVIGATION
+***********************/
 
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 00;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+/*Mobile View*/
 @media only screen and (max-width: 600px) {
   #menu {
     text-align: center;
@@ -148,5 +193,8 @@ div.img {
     height: auto;
     width: auto;
     vertical-align: center;
+  }
+  #menu {
+    height: auto;
   }
 }

@@ -286,7 +286,7 @@ nav a {
   }
 }
 */
-
+/*Mobile View*/
 @media only screen and (max-width: 600px) {
   #menu {
     text-align: center;
