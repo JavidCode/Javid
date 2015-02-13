@@ -277,13 +277,43 @@ nav a {
   padding: 15px 10px;
   text-decoration: none;
 }
+/*
+@media only screen and (max-width: 767px) {
+  .main_menu, #menu-wrap {
+    display: block;
+    width: 50%;
+    text-align: center;
+  }
+}
+*/
 
-@media (max-width: 600px) {
-  .nav {
-    text-align: left;
+@media only screen and (max-width: 600px) {
+  #menu {
+    text-align: center;
   }
   .nav > li {
     text-align: left;
+  }
+  .nav a {
+    text-align: center;
+  }
+  .fancybox {
+    padding-top: 0px;
+    width: 100%;
+    display: block;
+  }
+  #wrapper1 {
+    width: 250px;
+    margin: 0 auto;
+    padding: 0 5%;
+    background-color: black;
+    /*  float: left;*/
+
+    vertical-align: middle;
+  }
+  li img {
+    width: auto;
+    height: auto;
   }
 }
 /*Images of sites*/
@@ -378,13 +408,3 @@ PAGE: PORTFOLIO
  float: left;
 
 }*/
-
-@media only screen and (max-width: 767px) {
-  .main_menu,
-  #menu-wrap {
-    /*    display: block;*/
-
-    width: 50%;
-    text-align: center;
-  }
-}
