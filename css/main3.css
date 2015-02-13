@@ -286,6 +286,18 @@ nav a {
   }
 }
 */
+
+#menu {
+  font-size: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  border: groove;
+}
 /*Mobile View*/
 
 @media only screen and (max-width: 600px) {
