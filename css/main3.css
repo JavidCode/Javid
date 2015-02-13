@@ -321,7 +321,11 @@ nav a {
     width: 500px;
     vertical-align: center;
   }
-}
+  #images {
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
 }
 /*Images of sites*/
 
@@ -333,9 +337,11 @@ nav a {
   margin-right: auto;
   float: left;
 }
+
 #images {
   text-align: center;
 }
+
 a.port.hover {
   background: white;
 }
@@ -367,9 +373,11 @@ li img {
   width: 25%;
   height: auto;
 }
+
 .gallery {
   display: inline-block
 }
+
 #wrapper {
   width: 700px;
   margin: 0 auto;
