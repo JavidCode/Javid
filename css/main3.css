@@ -359,7 +359,9 @@ nav a {
     height: auto;
   }
   iframe {
-    width: auto;
+    width: 300px;
+    height: 1300px;
+    border: solid grey;
   }
 }
 /*Images of sites*/
