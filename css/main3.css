@@ -256,11 +256,17 @@ footer {
 }
 
 .bottom {
-  height: 300px;
-  width: 300px;
-  margin: 0 auto;
-  background-image: url(../img/cartoon.png);
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/cartoonsmall.png);
   background-repeat: no-repeat;
+}
+
+.bottom:hover {
+  background-image: url(../img/cartoonsmallg.png);
 }
 /**********************
 NAVIGATION
