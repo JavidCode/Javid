@@ -358,6 +358,9 @@ nav a {
     width: auto;
     height: auto;
   }
+  iframe {
+    width: auto;
+  }
 }
 /*Images of sites*/
 
