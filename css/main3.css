@@ -213,6 +213,8 @@ h2 {
 
 header {
   background-color: black;
+  border-style: solid;
+  border: 1px solid #999;
 }
 
 .logo1 {
@@ -251,6 +253,14 @@ footer {
   clear: both;
   padding-top: 50px;
   color: #ccc;
+}
+
+.bottom {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  background-image: url(../img/cartoon.png);
+  background-repeat: no-repeat;
 }
 /**********************
 NAVIGATION
