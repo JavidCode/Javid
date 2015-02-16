@@ -286,12 +286,29 @@ footer {
 /**********************
 NAVIGATION
 ***********************/
-
+/*
 #buttons {
   margin: 0 auto;
   text-align: center;
   width: 100%;
   height: auto;
+}
+*/
+
+#buttons {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 nav {
