@@ -164,7 +164,8 @@ h1 {
   font-family: Aly;
   color: blue;
   text-decoration: none;
-  background-color: black;
+  /*  background-color: black;*/
+
   text-align: center;
 }
 
@@ -213,13 +214,19 @@ h2 {
 
 header {
   background-color: black;
+  /*
   border-style: solid;
-  border-width: 5px;
-  border-color: blue;
+border-width: 5px;
+border-color: blue;
+*/
+
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
 }
 
 .logo1 {
-  background-color: black;
+  /*  background-color: black;*/
+
   width: 20%;
   height: auto;
   display: block;
@@ -245,6 +252,10 @@ h3 {
 
 body {
   background-color: black;
+  /*
+  background-image: url(../img/body.png);
+  background-repeat: no-repeat
+*/
 }
 /*Footer Text*/
 
@@ -254,6 +265,8 @@ footer {
   clear: both;
   padding-top: 50px;
   color: #ccc;
+  background-image: url(../img/footer%20bg.png);
+  background-repeat: no-repeat;
 }
 
 .bottom {
@@ -273,6 +286,11 @@ footer {
 /**********************
 NAVIGATION
 ***********************/
+
+#buttons {
+  margin: 0 auto;
+  text-align: center;
+}
 
 nav {
   text-align: center;
