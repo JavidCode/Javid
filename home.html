@@ -9,8 +9,23 @@
   <title>JavidCode | Uncoded | Home</title>
   <link rel="stylesheet" href="css/main3.css">
   <!--  <link rel="stylesheet" href="css/menu.css">-->
+  <link rel="stylesheet" href="css/testmenu.css">
   <link rel="stylesheet" href="css/social.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <!--  Slick nav begin-->
+  <!--
+  <link rel="stylesheet" href="css/slicknav.css" />
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="SlickNav/jquery.slicknav.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="../jquery.slicknav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#menu').slicknav();
+    });
+  </script>
+-->
+  <!--  Slick nav end-->
   <!--
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -44,100 +59,91 @@
     </a>
     <h1 class=h1home>JavidCode</h1>
     <h2 class=h2uncoded>"Uncoded"</h2>
-    <div id="buttons">
-      <img src="img/Home.png">
+    <!--
+   <ul id="menu">
 
-      <img src="img/WebDev.png">
-
-      <img src="img/Photography.png">
-
-      <img src="img/Resume.png">
-
-      <img src="img/About.png">
-
-      <img src="img/Contact.png">
-
-    </div>
-
-    <!--</class>-->
-    <nav id="menu-wrap">
-      <!--Java Menu Begin-->
-      <ul id="menu">
-        <li class="nav-current"><a href="home.html">Home</a>
-        </li>
-        <li>
-          <a href="phototest.html">Photography</a>
-        </li>
-
-
-
-        <!--<li>
-    <a href="">Placeholder</a>
-    <ul>
-      <li><a href="">Item 11</a>
-      </li>
-      <li><a href="">Item 12</a>
-      </li>
-      <li><a href="">Item 13</a>
-      </li>
-      <li><a href="">Item 14</a>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="">Placeholder</a>
-    <ul>
-      <li><a href="">Item 21</a>
-      </li>
-      <li><a href="">Item 22</a>
-      </li>
-      <li><a href="">Item 23</a>
-      </li>
-      <li><a href="">Item 24</a>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="">Development tools</a>
-    <ul>
-      <li><a href="">Item 31</a>
-      </li>
-      <li><a href="">Item 32</a>
-      </li>
-      <li><a href="">Item 33</a>
-      </li>
-      <li><a href="">Item 34</a>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="">Web design</a>
-    <ul>
-      <li><a href="">Item 41</a>
-      </li>
-      <li><a href="">Item 42</a>
-      </li>
-      <li><a href="">Item 43</a>
-      </li>
-      <li><a href="">Item 44</a>
-      </li>
-    </ul>
-  </li>
+  <li><a href="#">item 1</a> </li>
+  <li><a href="#">item 1</a> </li>
+  <li><a href="#">item 1</a> </li>
+  <li><a href="#">item 1</a> </li>
 </ul>
-</li>
-<li>
 -->
 
-        <li><a href="about.html">About</a>
+    <!--
+    <ul id="menu">
+  <li><a href="#">Home</a>
+  </li>
+  <li>
+    <a href="#">About ￬</a>
+    <ul class="hidden">
+      <li><a href="#">Who We Are</a>
+      </li>
+      <li><a href="#">What We Do</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Portfolio ￬</a>
+    <ul class="hidden">
+      <li><a href="#">Photography</a>
+      </li>
+      <li><a href="#">Web & User Interface Design</a>
+      </li>
+      <li><a href="#">Illustration</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#">News</a>
+  </li>
+  <li><a href="#">Contact</a>
+  </li>
+</ul>
+-->
+    <!--
+<div id="buttons">
+  <img src="img/Home.png">
+
+  <img src="img/WebDev.png">
+
+  <img src="img/Photography.png">
+
+  <img src="img/Resume.png">
+
+  <img src="img/About.png">
+
+  <img src="img/Contact.png">
+
+</div>-->
+
+
+
+
+    <!--</class>-->
+    <nav id="hmenu">
+      <label for="show-menu" class="show-menu">Show Menu</label>
+      <input type="checkbox" id="show-menu" role="button">
+      <ul id="menu">
+        <li><a href="#">Home</a>
         </li>
-        <li><a href="contact.html">Contact</a>
-        </li>
+        <li>
+          <li><a href="#">Web Development</a>
+          </li>
+          <li>
+            <li><a href="#">Photography</a>
+            </li>
+            <li>
+              <li><a href="#">Resume</a>
+              </li>
+
+              <li><a href="#">About</a>
+              </li>
+              <li><a href="#">Contact</a>
+              </li>
       </ul>
-    </nav>
 
 
-    <!--Java Menu End-->
-    <!--<nav>
+      <!--Java Menu End-->
+      <!--<nav>
           <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -157,10 +163,12 @@
     <div id="images">
       <ul id="Portfolio">
         <li>
-          <!--<a href="img/Port1.PNG"><img src="img/Port1.PNG" class="port1" alt="">
-          </a>
-          <a href="img/Port2.PNG"><img src="img/Port2.PNG" class="port1" alt="">
-          </a>-->
+          <!-- <a href="img/Port1.PNG"><img src="img/Port1.PNG" class="port1" alt="">
+</a>
+<a href="img/Port2.PNG"><img src="img/Port2.PNG" class="port1" alt="">
+</a>
+-->
+
           <a class="fancybox" href="img/Port1.PNG"><img src="img/Port1.PNG" alt="">
           </a>
           <a class="fancybox" href="img/Port2.PNG"><img src="img/Port2.PNG" alt="">
@@ -168,6 +176,7 @@
           <a class="fancybox" href="img/Port2.PNG"><img src="img/Port2.PNG" alt="">
           </a>
         </li>
+
       </ul>
     </div>
     <!--</section>-->
