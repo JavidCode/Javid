@@ -246,8 +246,7 @@ header.home img {
 h3 {
   color: white;
   font-family: Day;
-  text-align: center;
-}
+  text-align: center;}
 /*Body Color*/
 
 body {
@@ -368,8 +367,14 @@ nav a {
     text-align: center;
   }
   .fancybox {
+    /*
     padding-top: 0px;
-    width: 100%;
+width: 100%;
+display: block;
+*/
+
+    margin-left: auto;
+    margin-right: auto;
     display: block;
   }
   #wrapper1 {
@@ -467,6 +472,7 @@ li img {
 .fancybox {
   margin-left: auto;
   margin-right: auto;
+  display: inline;
 }
 
 iframe {

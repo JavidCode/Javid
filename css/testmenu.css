@@ -1,3 +1,10 @@
+#menu {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
 /*Strip the ul of padding and list styling*/
 
 ul {
@@ -115,4 +122,8 @@ input[type=checkbox]:checked ~ #menu {
   .show-menu {
     display: block;
   }
+}
+
+#nav1 {
+  display: inline;
 }
