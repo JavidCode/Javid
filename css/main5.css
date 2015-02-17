@@ -102,26 +102,27 @@ header {
 /*H1 and H2*/
 
 @font-face {
-  font-family: Aly;
-  src: url(..Fonts/Aly.ttf);
+  font-family: Fsans;
+  src: url("../Fonts/FreightSansBold.ttf");
 }
 
 h1 {
-  font-family: Aly;
+  font-family: 'Fsans';
   color: blue;
   text-decoration: none;
-  background-color: black;
+  /*  background-color: black;*/
+
   text-align: center;
 }
 
 @font-face {
-  font-family: Day;
-  src: url(..Fonts/Day.ttf);
+  font-family: Aly;
+  src: url("../Fonts/Aly.ttf");
 }
 
 h2 {
-  font-family: Day;
-  color: white;
+  font-family: 'Aly';
+  color: blue;
   text-align: center
 }
 

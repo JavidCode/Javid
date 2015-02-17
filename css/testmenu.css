@@ -127,3 +127,29 @@ input[type=checkbox]:checked ~ #menu {
 #nav1 {
   display: inline;
 }
+/*H1 and H2*/
+/*
+@font-face {
+  font-family: Fsans;
+  src: url("../Fonts/FreightSansBold.ttf");
+}
+
+h1 {
+  font-family: 'Fsans';
+  color: blue;
+  text-decoration: none;
+    background-color: black;
+
+  text-align: center;
+}
+
+@font-face {
+  font-family: Day;
+  src: url("../Fonts/Day.ttf");
+}
+
+h2 {
+  font-family: 'Day';
+  color: blue;
+  text-align: center
+}*/
