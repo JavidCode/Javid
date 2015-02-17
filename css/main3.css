@@ -214,13 +214,10 @@ h2 {
 
 header {
   background-color: black;
-  /*
   border-style: solid;
-border-width: 5px;
-border-color: blue;
-*/
-
-  background-image: url(../img/header1.png);
+  border-width: 5px;
+  border-color: blue;
+  background-image: url(../img/body1.png);
   background-repeat: no-repeat;
 }
 
@@ -252,10 +249,8 @@ h3 {
 
 body {
   background-color: black;
-  /*
-  background-image: url(../img/body.png);
-  background-repeat: no-repeat
-*/
+  background-image: url(../img/body2.png);
+  background-repeat: no-repeat;
 }
 /*Footer Text*/
 
@@ -265,8 +260,12 @@ footer {
   clear: both;
   padding-top: 50px;
   color: #ccc;
+  /*
   background-image: url(../img/footer%20bg.png);
   background-repeat: no-repeat;
+*/
+
+  background-color: black;
 }
 
 .bottom {
@@ -378,15 +377,6 @@ display: block;
     margin-right: auto;
     display: block;
   }
-  #wrapper1 {
-    width: 250px;
-    margin: 0 auto;
-    padding: 0 5%;
-    background-color: black;
-    /*  float: left;*/
-
-    vertical-align: middle;
-  }
   li img {
     width: auto;
     height: auto;
@@ -428,9 +418,20 @@ a.port.hover {
 /*The max-width is making gallery smaller*/
 
 #wrapper1 {
+  width: 250px;
+  margin: 0 auto;
+  padding: 0 5%;
+  /*    background-color: black;*/
+  /*  float: left;*/
+
+  vertical-align: middle;
+}
+
+#wrapper1 {
   margin: 0px auto;
   padding: 100px;
-  background-color: #000;
+  /*  background-color: #000;*/
+
   width: 960px;
   height: 100%;
   width: auto;
@@ -462,7 +463,8 @@ li img {
   width: 700px;
   margin: 0 auto;
   padding: 0 5%;
-  background-color: black;
+  /*  background-color: black;*/
+
   float: left;
   padding-top: 100px;
   width: 960px;
