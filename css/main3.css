@@ -483,9 +483,12 @@ li img {
 }
 
 #contact {
+  padding-top: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 900px;
+  width: 800px;
 }
 /**********************
 PAGE: PORTFOLIO
