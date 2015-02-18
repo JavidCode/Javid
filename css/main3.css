@@ -357,7 +357,7 @@ nav a {
 */
 /*Mobile View*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   #menu {
     text-align: center;
   }
@@ -402,7 +402,7 @@ display: block;
     height: auto;
   }
   #contact {
-    width: 330px;
+    width: 100px;
     height: 1300px;
     border: solid grey;
   }
