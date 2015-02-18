@@ -153,9 +153,9 @@ table {
   height: auto;
   left: 0px;
 }
-/*H1 and H2*/flogo
+/*H1 and H2*/
 
-@font-face {
+flogo @font-face {
   font-family: Fsans;
   src: url("../Fonts/FreightSansBold.ttf");
 }
@@ -525,3 +525,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }*/
+
+#resume {
+  padding-top: 100px;
+}

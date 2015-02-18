@@ -9,8 +9,23 @@
   <title>JavidCode | Uncoded | Home</title>
   <link rel="stylesheet" href="css/main3.css">
   <!--  <link rel="stylesheet" href="css/menu.css">-->
+  <link rel="stylesheet" href="css/testmenu.css">
   <link rel="stylesheet" href="css/social.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <!--  Slick nav begin-->
+  <!--
+  <link rel="stylesheet" href="css/slicknav.css" />
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="SlickNav/jquery.slicknav.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="../jquery.slicknav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#menu').slicknav();
+    });
+  </script>
+-->
+  <!--  Slick nav end-->
   <!--
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -42,82 +57,94 @@
     <!--<class id="Top1">-->
     <a><img class="logo1" src="img/Logo.png" alt="JavidCode" title="JavidCode">
     </a>
-    <h1 class=h1home>JavidCode</h1>
-    <h2 class=h2uncoded>"Uncoded"</h2>
-    <!--</class>-->
-    <nav id="menu-wrap">
-      <!--Java Menu Begin-->
-      <ul id="menu">
-        <li class="nav-current"><a href="home.html">Home</a>
-        </li>
-        <li>
-          <a href="phototest.html">Photography</a>
-        </li>
 
-        <!--
-  <li>
-    <a href="">Placeholder</a>
-    <ul>
-      <li><a href="">Item 11</a>
-      </li>
-      <li><a href="">Item 12</a>
-      </li>
-      <li><a href="">Item 13</a>
-      </li>
-      <li><a href="">Item 14</a>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="">Placeholder</a>
-    <ul>
-      <li><a href="">Item 21</a>
-      </li>
-      <li><a href="">Item 22</a>
-      </li>
-      <li><a href="">Item 23</a>
-      </li>
-      <li><a href="">Item 24</a>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="">Development tools</a>
-    <ul>
-      <li><a href="">Item 31</a>
-      </li>
-      <li><a href="">Item 32</a>
-      </li>
-      <li><a href="">Item 33</a>
-      </li>
-      <li><a href="">Item 34</a>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="">Web design</a>
-    <ul>
-      <li><a href="">Item 41</a>
-      </li>
-      <li><a href="">Item 42</a>
-      </li>
-      <li><a href="">Item 43</a>
-      </li>
-      <li><a href="">Item 44</a>
-      </li>
-    </ul>
-  </li>
+    <h1 class=h1home>JAVID CODE</h1>
+    <h2 class=h2uncoded>"Uncoded"</h2>
+
+    <!--
+   <ul id="menu">
+
+  <li><a href="#">item 1</a> </li>
+  <li><a href="#">item 1</a> </li>
+  <li><a href="#">item 1</a> </li>
+  <li><a href="#">item 1</a> </li>
 </ul>
-</li>
-<li>
 -->
 
-        <li><a href="about.html">About</a>
-        </li>
-        <li><a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <!--
+    <ul id="menu">
+  <li><a href="#">Home</a>
+  </li>
+  <li>
+    <a href="#">About ￬</a>
+    <ul class="hidden">
+      <li><a href="#">Who We Are</a>
+      </li>
+      <li><a href="#">What We Do</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Portfolio ￬</a>
+    <ul class="hidden">
+      <li><a href="#">Photography</a>
+      </li>
+      <li><a href="#">Web & User Interface Design</a>
+      </li>
+      <li><a href="#">Illustration</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#">News</a>
+  </li>
+  <li><a href="#">Contact</a>
+  </li>
+</ul>
+-->
+    <!--
+<div id="buttons">
+  <img src="img/Home.png">
+
+  <img src="img/WebDev.png">
+
+  <img src="img/Photography.png">
+
+  <img src="img/Resume.png">
+
+  <img src="img/About.png">
+
+  <img src="img/Contact.png">
+
+</div>-->
+
+
+
+
+    <!--</class>-->
+    <div id="nav1">
+      <nav id="hmenu">
+        <label for="show-menu" class="show-menu">Show Menu</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+          <li><a href="home.html">Home</a>
+          </li>
+          <li>
+            <li><a href="webdev.html">Web Development</a>
+            </li>
+            <li>
+              <li><a href="phototest.html">Photography</a>
+              </li>
+              <li>
+                <li><a href="resume.html">Resume</a>
+                </li>
+
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="contact.html">Contact</a>
+                </li>
+        </ul>
+      </nav>
+    </div>
     <!--Java Menu End-->
     <!--<nav>
           <ul>
@@ -130,58 +157,13 @@
 
   </header>
 
+  <iframe id="resume" src="https://docs.google.com/file/d/0B6BKhDSrJdHBWnVRcTF0S0d4RXM/preview" width="900" height="800"></iframe>
 
-  <h3>Welcome to my first web page!</h3>
-  <iframe id="contact" src="https://docs.google.com/forms/d/1I-czqgJo7gn7b0-q5e3nDMvGXbQlR2a6OWFfU7EiM5U/viewform?embedded=true" width="900" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <!-- <h3>Welcome to my first web page!</h3>-->
+
 
   <div id="wrapper1">
 
-  </div>
-  <footer>
-    <div id="container">
-      <!-- FACEBOOK -->
-      <a href="http://www.facebook.com/javidcode">
-        <div class="button">
-          <img src="socialmediaicons/facebook-square.png" height="50" width="50" alt="Facebook" title="Facebook" />
-        </div>
-        <!--end of button-->
-      </a>
-      <!-- LINKEDIN -->
-      <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">
-        <div class="button">
-          <img src="socialmediaicons/linkedin.png" height="50" width="50" alt="LinkedIn" title="LinkedIn" />
-        </div>
-        <!--end of button-->
-        <!-- TWITTER -->
-        <a href="#">
-          <div class="button">
-            <img src="socialmediaicons/twitter.png" height="50" width="50" alt="Twitter" title="Twitter" />
-          </div>
-          <!--end of button-->
-        </a>
-        <!-- YOUTUBE -->
-        <a href="#">
-          <div class="button">
-            <img src="socialmediaicons/youtube.png" height="50" width="50" alt="YouTube" title="YouTube" />
-          </div>
-          <!--end of button-->
-        </a>
-        <!-- INSTAGRAM -->
-        <a href="#">
-          <div class="button">
-            <img src="socialmediaicons/instagram.png" height="31" width="31" alt="Instagram" title="Instagram" id="img_2" />
-          </div>
-          <!--end of button-->
-        </a>
-        <!-- GITHUB -->
-        <a href="https://github.com/JavidCode">
-          <div class="button">
-            <img src="socialmediaicons/github.png" height="31" width="31" alt="Instagram" title="Github" id="img_3" />
-          </div>
-          <!--end of button-->
-        </a>
-    </div>
-    <!--end of container-->
     <div class="bottom"></div>
     <div id="container">
       <!-- FACEBOOK -->
@@ -228,7 +210,12 @@
       </a>
     </div>
     <p>Copyright &copy; 2015 Javid Beykzadeh.</p>
-  </footer>
+    </footer>
 </body>
 
 </html>
+
+
+
+
+<iframe src="https://docs.google.com/file/d/0B6BKhDSrJdHBWnVRcTF0S0d4RXM/preview" width="640" height="480"></iframe>
