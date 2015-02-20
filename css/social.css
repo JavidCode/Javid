@@ -56,6 +56,7 @@ height: auto;
   margin-right: auto;
 /*  margin-bottom: 75px;*/
   background-color: black;
+
 }
 
 #container h1 {
@@ -64,4 +65,14 @@ height: auto;
   text-align: center;
   color: #356245;
   padding-bottom: 25px;
+}
+
+
+.footer {
+  width: 100%;
+  clear: both;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  background-color: #ccc;
 }
