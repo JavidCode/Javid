@@ -59,9 +59,11 @@ li {
 }
 /*Hover state for top level links*/
 
-li:hover a {
+
+#menu li:hover a {
   background: #19c589;
 }
+
 /*Style for dropdown links*/
 
 li:hover ul a {
@@ -72,7 +74,7 @@ li:hover ul a {
 }
 /*Hover state for dropdown links*/
 
-li:hover ul a:hover {
+#menu li:hover ul a:hover {
   background: #19c589;
   color: #fff;
 }
