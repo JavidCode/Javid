@@ -310,6 +310,9 @@ footer {
   background-image: url(../img/footer%20bg.png);
  background-repeat: no-repeat;
 */
+  background-color: black;
+  border-style: solid;
+    border-top: thick double blue;
 }
 
 .bottom {
