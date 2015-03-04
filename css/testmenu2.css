@@ -131,13 +131,13 @@ input[type=checkbox]:checked ~ #menu {
 @media screen and (max-width: 375px) {
   /*Make dropdown links appear inline*/
 
-  ul {
+  #nav1 ul {
     position: static;
     display: none;
   }
   /*Create vertical spacing*/
 
-  li {
+  #nav1 li {
     margin-bottom: 1px;
   }
   /*Make all menu links full width*/
