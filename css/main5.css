@@ -188,7 +188,7 @@ nav a {
 }
 /*Mobile View*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
   #menu {
     text-align: center;
   }
@@ -198,31 +198,50 @@ nav a {
   .nav a {
     text-align: center;
   }
+  /*
   .fancybox {
-    padding-top: 0px;
-    width: 100%;
-    display: block;
-  }
-  #wrapper1 {
-    width: 250px;
-    margin: 0 auto;
-    padding: 0 5%;
-    background-color: black;
-    /*  float: left;*/
 
-    vertical-align: middle;
+    padding-top: 0px;
+width: 100%;
+display: block;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
   }
+*/
+
   li img {
-    width: auto;
+    width: 100%;
     height: auto;
   }
   .gallery {
     padding-top: 0px;
-    height: auto;
-    width: auto;
+    width: 500px;
     vertical-align: center;
   }
-  #menu {
+  #images {
+    text-align: center;
+    width: auto;
     height: auto;
   }
+  #contact {
+    width: 350px;
+    height: 1300px;
+    /*    border: solid grey;*/
+  }
+  #resume {
+    width: 330px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  video, audio, .mejs-treehouse {
+  margin: 0 auto;
+  display: block;
+}
+
+
 }
