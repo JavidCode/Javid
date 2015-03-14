@@ -569,13 +569,13 @@ body {
   margin-right: auto;
 }
 
-/*
+
 
 .wrapper {
   max-width: 90%;
   margin: 10px auto;
   padding: 10px 20px;
-  background: #f4f7f8;
+
   border-radius: 8px;
 }
 
@@ -584,4 +584,4 @@ body {
 video, audio, .mejs-treehouse {
   margin: 0 auto;
   display: block;
-}*/
+}
