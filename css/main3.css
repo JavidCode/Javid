@@ -246,11 +246,13 @@ h2 {
 
 header {
   background-color: black;
-  /*
+/*
+
   border-style: solid;
 border-width: 5px;
-border-color: blue;
 */
+border-color: blue;
+
   /*
   background-image: url(../img/header1.png);
 background-repeat: no-repeat;
@@ -466,10 +468,13 @@ display: block;
   video, audio, .mejs-treehouse {
   margin: 0 auto;
   display: block;
-  height: auto;
+  height: 300px;
   width: auto;
 }
 
+  #wrapper1 {
+  padding: 0px;
+  }
 
 }
 /*Images of sites*/
@@ -496,17 +501,13 @@ a.port.hover {
   width: 250px;
   margin: 0 auto;
   padding: 0 5%;
-    background-color: black;
-  /*  float: left;*/
-
+  background-color: black;
   vertical-align: middle;
 }
 
 #wrapper1 {
-  margin: 0px auto;
-  padding: 100px;
-  /*  background-color: #000;*/
 
+  padding: 100px;
   width: 960px;
   height: 100%;
   width: auto;
@@ -584,7 +585,6 @@ body {
   max-width: 90%;
   margin: 10px auto;
   padding: 10px 20px;
-
   border-radius: 8px;
 }
 
@@ -593,4 +593,6 @@ body {
 video, audio, .mejs-treehouse {
   margin: 0 auto;
   display: block;
+  width: auto;
+  height: auto;
 }
