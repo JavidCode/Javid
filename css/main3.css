@@ -466,6 +466,8 @@ display: block;
   video, audio, .mejs-treehouse {
   margin: 0 auto;
   display: block;
+  height: auto;
+  width: auto;
 }
 
 
