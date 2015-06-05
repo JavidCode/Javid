@@ -29,14 +29,218 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+/*
   background-image: url(../img/cartoonsmallg.png);
   background-repeat: no-repeat;
   background-size: 75% 75%;
+*/
 }
 
+/*
 .bottom:hover {
   background-image: url(../img/cartoonsmall.png);
 }
+*/
+/* Added width to be able to see picture object better */
+/*img size*/
+
+.fancybox img {
+  width: 200px;
+}
+
+.gallery {
+  font-size: 0;
+  width: 900px;
+  /* Disabled this next line to remove left/right margin that is pushing the gallery class away from the left */
+  /* margin: 0 auto; */
+
+  margin: 0 auto;
+/*  background-color: white;*/
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-style: solid;
+  border-color: red;
+}
+
+.gallery a {
+  margin: 2px;
+  border: 4px transparent;
+  display: inline-block;
+  -webkit-border-radius: 10px;
+  opacity: .5;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  background-color: white;
+}
+
+/*
+.gallery a:hover {
+  border-color: white;
+  opacity: 1;
+}
+*/
+
+.gallery img {
+  -webkit-border-radius: 6px;
+  border: 0;
+}
+/*Header Image*/
+
+header {
+  background-color: black;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+}
+
+.logo1 {
+  background-color: black;
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*H1 and H2*/
+/*H1 and H2*/
+
+@font-face {
+  font-family: Fsans;
+  src: url("../Fonts/FreightSansBold.ttf");
+}
+
+h1 {
+  font-family: 'Fsans';
+  color: blue;
+  text-decoration: none;
+  /*  background-color: black;*/
+
+  text-align: center;
+}
+
+@font-face {
+  font-family: Aly;
+  src: url("../Fonts/Aly.ttf");
+}
+
+h2 {
+  font-family: 'Aly';
+  color: blue;
+  text-align: center
+}
+
+/*
+h1:hover {
+  color: white;
+}
+
+h2:hover {
+  color: red;
+}
+*/
+/*.port {
+  width: 100px;
+}*/
+/*#wrapper {
+  width: 100px;
+}*/
+/*.portfolio {
+  width: 100px;
+}*/
+
+div.img {
+  margin: 5px;
+  padding: 5px;
+  /*border: 1px solid #0000ff;*/
+
+  height: auto;
+/*
+  width: auto;
+  float: left;
+*/
+  text-align: center;
+}
+/*div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 150px;
+  margin: 5px;
+}*/
+/**********************
+NAVIGATION
+***********************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 00;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: cyan;
+}
+/*Mobile View*/
+
+@media o@import "social.css";
+/*@import "menu.css";*/
+
+@import "normalize.css";
+/*http://www.w3schools.com/css/css_combinators.asp  Does this do what I want?/*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/*Body Color*/
+
+body {
+  background-color: black;
+}
+/*Footer Text*/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.bottom {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+/*
+  background-image: url(../img/cartoonsmallg.png);
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+*/
+}
+
+/*
+.bottom:hover {
+  background-image: url(../img/cartoonsmall.png);
+}
+*/
 /* Added width to be able to see picture object better */
 /*img size*/
 
@@ -127,6 +331,7 @@ h2 {
   text-align: center
 }
 
+/*
 h1:hover {
   color: white;
 }
@@ -134,6 +339,7 @@ h1:hover {
 h2:hover {
   color: red;
 }
+*/
 /*.port {
   width: 100px;
 }*/
@@ -221,6 +427,51 @@ display: block;
     width: auto;
     height: auto;
     vertical-align: center;
+  }
+  #images {
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  #contact {
+    width: 350px;
+    height: 1300px;
+    /*    border: solid grey;*/
+  }
+  #resume {
+    width: 330px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  video, audio, .mejs-treehouse {
+  margin: 0 auto;
+  display: block;
+}
+
+
+}nly screen and (max-width: 375px) {
+  #menu {
+    text-align: center;
+  }
+  .nav > li {
+    text-align: left;
+  }
+  .nav a {
+    text-align: center;
+  }
+
+  li img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery {
+    padding-top: 0px;
+    width: auto;
+    height: auto;
+    vertical-align: center;
+    background-color: blue;
   }
   #images {
     text-align: center;
