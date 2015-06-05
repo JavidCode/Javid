@@ -198,8 +198,8 @@ h2:hover {
 */
 
 li img {
-  width: 25%;
-  height: auto;
+  width: 100%
+  height: auto:
 }
 
 .gallery {
@@ -446,9 +446,10 @@ display: block;
   }
 */
 
+
   li img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width: auto;
   }
   .gallery {
     padding-top: 0px;
@@ -500,8 +501,10 @@ display: block;
   margin-bottom: auto;
 }
 
+/*
 a.port.hover {
   background: white;
+*/
 }
 /*The max-width is making gallery smaller*/
 
