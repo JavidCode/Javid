@@ -198,8 +198,8 @@ h2:hover {
 */
 
 li img {
-  width: 100%
-  height: auto:
+  width: 100%;
+  height: auto;
 }
 
 .gallery {
@@ -448,8 +448,8 @@ display: block;
 
 
   li img {
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
   }
   .gallery {
     padding-top: 0px;
@@ -492,11 +492,17 @@ display: block;
   float: left;
 }
 
+#porfolio ul
+{
+  display: block;
+
+}
+
 #images {
   width: auto;
   height: auto;
   text-align: center;
-  background-color: white;
+/*  background-color: white;*/
   margin-top: auto;
   margin-bottom: auto;
 }
