@@ -185,13 +185,17 @@ h2 {
   text-align: center
 }
 
+/*
 h1:hover {
   color: white;
 }
+*/
 
+/*
 h2:hover {
   color: red;
 }
+*/
 
 li img {
   width: 25%;
@@ -218,6 +222,7 @@ li img {
   margin-left: auto;
   margin-right: auto;
   display: inline;
+  background-color: white;
 }
 /*
 h1home {
@@ -323,14 +328,16 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/cartoonsmallg.png);
+/*  background-image: url(../img/cartoonsmallg.png);*/
   background-repeat: no-repeat;
   background-size: 75% 75%;
   padding-bottom: 8px;
 }
 
+/*
 .bottom:hover {
   background-image: url(../img/cartoonsmall.png);
+*/
 }
 /**********************
 NAVIGATION
@@ -448,11 +455,7 @@ display: block;
     width: 500px;
     vertical-align: center;
   }
-  #images {
-    text-align: center;
-    width: auto;
-    height: auto;
-  }
+
   #contact {
     width: 350px;
     height: 1300px;
@@ -489,7 +492,12 @@ display: block;
 }
 
 #images {
+  width: auto;
+  height: auto;
   text-align: center;
+  background-color: white;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 a.port.hover {

@@ -37,13 +37,17 @@ h1 {
 }
 /*Hover colors*/
 
+/*
 h1:hover {
   color: blue;
 }
+*/
 
+/*
 h2:hover {
   color: white;
 }
+*/
 /*Pages other than index.html*/
 
 @font-face {
@@ -162,7 +166,7 @@ body {
   color: #fff;
   text-align: center;
   color: #356245;
-  padding-bottom: 25px;
+  padding-bottom: 25px
 }
 /*Footer Text*/
 
@@ -175,10 +179,21 @@ body {
   margin-right: auto;
   text-align: center;
   text-decoration: none;
+  font-size: 20px;
+  background-color: white;
+  color: green;
+
 }
 a {
   text-decoration: none;
 }
 nav {
   text-align: center;
+}
+
+#enter img {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+
 }
