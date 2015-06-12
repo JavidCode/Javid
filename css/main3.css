@@ -182,7 +182,19 @@ h1 {
 h2 {
   font-family: 'Aly';
   color: blue;
-  text-align: center
+  text-align: center;
+}
+
+@font-face {
+  font-family: Droid;
+  src: url("..Fonts/Droidsans.ttf");
+}
+
+#pageTitle {
+  font-family: Droid;
+  color: Black;
+  font-size: 35px;
+  text-align: center;
 }
 
 /*
@@ -283,11 +295,8 @@ header.home img {
 }
 /*End Header Logo*/
 
-h3 {
-  color: white;
-  font-family: Day;
-  text-align: center;
-}
+
+
 /*Body Color*/
 
 body {
