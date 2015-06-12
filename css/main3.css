@@ -238,7 +238,7 @@ li img {
   width: 960px;
   display: inline-block;
 }
-/*Portfolio/*/
+/*Portfolio*/
 
 .fancybox {
   margin-left: auto;
@@ -515,7 +515,7 @@ display: block;
 
 #porfolio ul
 {
-  display: block;
+  display: block !important;
 
 }
 
@@ -545,8 +545,7 @@ a.port.hover {
 
 #wrapper1 {
 
-  padding: 100px;
-  width: 960px;
+
   height: 100%;
   width: auto;
 }
