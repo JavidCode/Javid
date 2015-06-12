@@ -453,19 +453,6 @@ nav a {
   .nav a {
     text-align: center;
   }
-  /*
-  .fancybox {
-
-    padding-top: 0px;
-width: 100%;
-display: block;
-
-
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-*/
 
 
   li img {
@@ -500,6 +487,19 @@ display: block;
   #wrapper1 {
   padding: 0px;
   }
+  /*
+  .fancybox {
+
+    padding-top: 0px;
+width: 100%;
+display: block;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+*/
 
 }
 /*Images of sites*/
@@ -622,6 +622,8 @@ body {
 video, audio, .mejs-treehouse {
   margin: 0 auto;
   display: block;
+/*
   width: auto;
   height: auto;
+*/
 }
