@@ -519,7 +519,7 @@ display: block;
 
 }
 
-#images {
+.images {
   width: auto;
   height: auto;
   text-align: center;
