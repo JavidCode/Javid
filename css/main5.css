@@ -60,7 +60,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  border-style: solid;
+/*  border-style: solid;*/
 /*  border-color: red;*/
 }
 
@@ -193,11 +193,6 @@ nav a {
 }
 /*Mobile View*/
 
-@media @import "social.css";
-/*@import "menu.css";*/
-
-@import "normalize.css";
-/*http://www.w3schools.com/css/css_combinators.asp  Does this do what I want?/*/
 
 body {
 /*  background-color: black;*/
@@ -463,7 +458,7 @@ display: block;
     width: auto;
     height: auto;
     vertical-align: center;
-    background-color: blue;
+/*    background-color: blue;*/
   }
   #images {
     text-align: center;
