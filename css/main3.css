@@ -250,7 +250,7 @@ h2 {
 }
 
 header {
-  background-color: black;
+/*  background-color: black;*/
 /*
 
   border-style: solid;
@@ -297,11 +297,13 @@ body {
   background-repeat: no-repeat
 */
 
+/*
   background-image: -webkit-linear-gradient(bottom, #0e0e0e 48%, #0d48f0);
   background-image: -moz-linear-gradient(bottom, #0e0e0e 48%, #0d48f0);
   background-image: -o-linear-gradient(bottom, #0e0e0e 48%, #0d48f0);
   background-image: -ms-linear-gradient(bottom, #0e0e0e 48%, #0d48f0);
   background-image: linear-gradient(to top, #0e0e0e 48%, #0d48f0);
+*/
   width: auto;
   height: auto;
 }
