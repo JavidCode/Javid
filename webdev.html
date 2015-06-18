@@ -36,9 +36,25 @@
       $(".fancybox").fancybox();
     });
   </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      $(document).ready(function() {
+        // Execute some code here
+      });
+    </script>
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <header>
 
     <a href="home.html"><img class="logo1" src="img/Logo1.png" alt="Javid Code" title="Javid Code">
@@ -77,6 +93,13 @@
 
   <h3>Welcome to my first web page!</h3>
 
+<div class="facebook">
+    <div class="fb-page" data-href="https://www.facebook.com/javidcode" data-width="500" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/javidcode"><a href="https://www.facebook.com/javidcode">Facebook</a></blockquote></div></div></div>
+
+    <div style="width: 190px;">
+    <!-- Page plugin's width will be 190px -->
+  <div class="fb-page" data-href="{url}" data-width="420"></div>
+</div>
 
   <div id="wrapper1">
     <!--<section>-->
@@ -101,7 +124,7 @@
 <a class="tooltip" href="http://codepen.io/javidcode/" data-title="CodePen"><i class="fa fa-codepen"></i><span>CodePen</span></a>
 
 <a class="tooltip" href="http://github.com/javidcode/" data-title="Github"><i class="fa fa-github"></i><span>Github</span></a>
-    </div>
+
  </div>
     <div class="bottom"></div>
       <a href="home.html"><img alt="Go home" src="img/cartoonsmall.png"></a>

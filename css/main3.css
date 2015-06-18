@@ -207,6 +207,11 @@ h2 {
 }
 
 
+ .fb_iframe_widget {width:500px !important;}
+
+
+
+
 /*
 h1:hover {
   color: white;
@@ -606,7 +611,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }*/
-
 
 
 
