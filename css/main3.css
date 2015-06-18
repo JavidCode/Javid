@@ -167,7 +167,7 @@ flogo @font-face {
 
 h1 {
   font-family: 'Fsans';
-  color: blue;
+/*  color: blue;*/
   text-decoration: none;
   /*  background-color: black;*/
 
@@ -181,7 +181,7 @@ h1 {
 
 h2 {
   font-family: 'Aly';
-  color: blue;
+/*  color: blue;*/
   text-align: center;
 }
 
@@ -250,6 +250,13 @@ li img {
   margin-right: auto;
   display: inline;
   background-color: white;
+}
+
+.fb-page,
+.fb-page span,
+.fb-page span iframe[style] {
+    width: 100% !important;
+    text-align: center;
 }
 /*
 h1home {
@@ -411,9 +418,9 @@ nav li {
 
 nav a {
   font-weight: 800;
-  padding: 15px 10px;
+  padding: 10px 10px;
   text-decoration: none;
-  color: cyan;
+  color: white;
 }
 /*
 @media only screen and (max-width: 767px) {
