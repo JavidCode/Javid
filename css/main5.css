@@ -110,7 +110,7 @@ header {
 
 h1 {
   font-family: 'Fsans';
-  color: blue;
+/*  color: blue;*/
   text-decoration: none;
   /*  background-color: black;*/
 
@@ -124,7 +124,7 @@ h1 {
 
 h2 {
   font-family: 'Aly';
-  color: blue;
+/*  color: blue;*/
   text-align: center
 }
 

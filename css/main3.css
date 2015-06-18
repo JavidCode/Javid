@@ -209,8 +209,25 @@ h2 {
 
  .fb_iframe_widget {width:500px !important;}
 
+.banner {
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
 
 
+header {
+/*background-color: black;*/
+  background-image: url(../img/IMG_6415.jpg);
+  border: 0 none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 100px;
+    opacity : 0.2;
+    z-index: -1;
+
+}
 
 /*
 h1:hover {
@@ -306,6 +323,7 @@ background-repeat: no-repeat;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  opacity: 1!important;
 }
 
 header.home img {
